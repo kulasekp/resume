@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<!--[if IE 8]> <html lang="en" class="ie8"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->  
+<!--[if !IE]><!--> <html lang="en" xmlns:th="http://www.thymeleaf.org"> <!--<![endif]-->
+<head>
+    <title>Piotr Kulasek - Resume</title>
+    <!-- Meta -->
+    <meta charset="utf-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content="Piotr Kulasek - Resume"/>
+    <meta name="author" content="Piotr Kulasek. Bootstrap template author: Xiaoying Riley at 3rd Wave Media"/>
+    <!--<link rel="shortcut icon" href="favicon.ico"/>-->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,400italic,300italic,300,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'/>
+    <!-- Global CSS -->
+    <link rel="stylesheet" href="../static/assets/plugins/bootstrap/css/bootstrap.min.css" th:href="@{assets/plugins/bootstrap/css/bootstrap.min.css}"/>
+    <!-- Plugins CSS -->
+    <link rel="stylesheet" href="../static/assets/plugins/font-awesome/css/font-awesome.css" th:href="@{assets/plugins/font-awesome/css/font-awesome.css}"/>
+    
+    <!-- Theme CSS -->  
+    <link id="theme-style" rel="stylesheet" href="../static/assets/css/styles.css" th:href="@{assets/css/styles.css}"/>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head> 
+
+<body>
+    <div class="wrapper">
+        <div class="sidebar-wrapper">
+            <div class="profile-container">
+                <img class="profile" src="../static/assets/images/profile.png" th:src="@{assets/images/profile.jpg}" alt="" />
+                <h1 class="name">Piotr Kulasek</h1>
+                <h3 class="tagline">IT Architect</h3>
+            </div><!--//profile-container-->
+            
+            <div class="contact-container container-block">
+                <ul class="list-unstyled contact-list">
+                    <li class="email"><i class="fa fa-envelope"></i><a href="mailto: kulasekp@gmail.com">kulasekp@gmail.com</a></li>
+                    <li class="phone"><i class="fa fa-phone"></i><a href="tel:+48 506 091 443">+48 506 091 443</a></li>
+                    <li class="linkedin"><i class="fa fa-linkedin"></i><a href="#" target="_blank">linkedin.com/in/kulasekp</a></li>
+                    <li class="github"><i class="fa fa-github"></i><a href="#" target="_blank">github.com/kulasekp</a></li>
+                    <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/kulasekp" target="_blank">@kulasekp</a></li>
+                </ul>
+            </div><!--//contact-container-->
+            <div class="education-container container-block">
+                <h2 class="container-block-title">Education</h2>
+                <div class="item">
+                    <h4 class="degree">MS Degree</h4>
+                    <h5 class="meta">Mathematics and IT Department</h5>
+                    <h5 class="meta">University of Łódź</h5>
+                    <div class="time">2004 - 2012</div>
+                </div><!--//item-->
+            </div><!--//education-container-->
+
+            <div class="education-container container-block">
+                <h2 class="container-block-title">Certificates</h2>
+                <div class="item">
+                    <h4 class="degree">PRINCE2 Foundation</h4>
+                </div><!--//item-->
+            </div><!--//education-container-->
+            
+            <div class="languages-container container-block">
+                <h2 class="container-block-title">Languages</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>English <span class="lang-desc">B1</span></li>
+                </ul>
+            </div><!--//interests-->
+            
+            <div class="interests-container container-block">
+                <h2 class="container-block-title">Interests</h2>
+                <ul class="list-unstyled interests-list">
+                    <li>Football</li>
+                    <li>Cooking</li>
+                </ul>
+            </div><!--//interests-->
+            
+        </div><!--//sidebar-wrapper-->
+        
+        <div class="main-wrapper">
+            
+            <section class="section summary-section">
+                <h2 class="section-title"><i class="fa fa-user"></i>Career Profile</h2>
+                <div class="summary">
+                    <p>IT Architect and Team Leader with 5 years of experience in designing, integrating and managing delivery of web applications (Telco VAS mostly) and HPC-related software for leading polish and international organizations and 2 years of experience in software testing.</p>
+                </div><!--//summary-->
+            </section><!--//section-->
+            
+            <section class="section experiences-section">
+                <h2 class="section-title"><i class="fa fa-briefcase"></i>Experiences</h2>
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">IT Architect</h3>
+                            <div class="time">IX.2015 - Present</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Hycom S.A.</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Responsible for designing and developing Spring Boot-based application and its integration with e-commerce platform via REST API. Member of SCRUM team.</p>
+                    </div><!--//details-->
+                </div><!--//item-->
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">IT Architect, Team Leader</h3>
+                            <div class="time">V.2014 - VIII.2015</div>
+                        </div><!--//upper-row-->
+                        <div class="company">Atos Poland</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Responsible for managing, analysis, design, development and testing of Telco VAS related systems with usage of Apache Camel, REST/SOAP, Spring and Oracle.</p>
+                        
+                    </div><!--//details-->
+                </div><!--//item-->
+                
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Software Developer, Team Leader</h3>
+                            <div class="time">V.2010 - IV.2014</div>
+                        </div><!--//upper-row-->
+                        <div class="company">AMG.net</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Responsible for managing, analysis, design, documentation and development of HPC and Cloud management portal as well as for integration with backend. Member of SCRUM team.</p>
+                    </div><!--//details-->
+                </div><!--//item-->
+
+                <div class="item">
+                    <div class="meta">
+                        <div class="upper-row">
+                            <h3 class="job-title">Quality Assurance Engineer</h3>
+                            <div class="time">IV.2008 - IV.2010</div>
+                        </div><!--//upper-row-->
+                        <div class="company">AMG.net</div>
+                    </div><!--//meta-->
+                    <div class="details">
+                        <p>Test plan creation, tests automation, execution of functional,  performance and end-to-end tests using Selenium/WebDriver and JMeter.</p>
+                    </div><!--//details-->
+                </div><!--//item-->
+
+            </section><!--//section-->
+            
+            <!--<section class="section projects-section">-->
+                <!--<h2 class="section-title"><i class="fa fa-archive"></i>Projects</h2>-->
+                <!--<div class="intro">-->
+                    <!--<p>You can list your side projects or open source libraries in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.</p>-->
+                <!--</div>&lt;!&ndash;//intro&ndash;&gt;-->
+                <!--<div class="item">-->
+                    <!--<span class="project-title"><a href="#hook">Velocity</a></span> - <span class="project-tagline">A responsive website template designed to help startups promote, market and sell their products.</span>-->
+                <!--</div>&lt;!&ndash;//item&ndash;&gt;-->
+            <!--</section>&lt;!&ndash;//section&ndash;&gt;-->
+            
+            <section class="skills-section section">
+                <h2 class="section-title"><i class="fa fa-rocket"></i>Skills &amp; Proficiency</h2>
+                <div class="skillset">        
+                    <div class="item">
+                        <h3 class="level-title">Java</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="90%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">Web Services (SOAP, REST)</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="80%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">UML, Design Patterns</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="70%">
+                            </div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">Spring IO Platform</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="60%">
+                            </div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">Agile Methodology</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="80%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+
+                    <div class="item">
+                        <h3 class="level-title">Software Testing</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="70%">
+                            </div>
+                        </div><!--//level-bar-->
+                    </div><!--//item-->
+                    
+                    <div class="item">
+                        <h3 class="level-title">RDB/ORM</h3>
+                        <div class="level-bar">
+                            <div class="level-bar-inner" data-level="60%">
+                            </div>                                      
+                        </div><!--//level-bar-->                                 
+                    </div><!--//item-->
+                    
+                </div>  
+            </section><!--//skills-section-->
+            
+        </div><!--//main-body-->
+    </div>
+ 
+    <footer class="footer">
+        <div class="text-center">
+                <!--/* This template is released under the Creative Commons Attribution 3.0 License. Please keep the attribution link below when using for your own project. Thank you for your support. :) If you'd like to use the template without the attribution, you can check out other license options via our website: themes.3rdwavemedia.com */-->
+                <small class="copyright">Designed with <i class="fa fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank">Xiaoying Riley</a> for developers</small>
+        </div><!--//container-->
+    </footer><!--//footer-->
+ 
+    <!-- Javascript -->          
+    <script type="text/javascript" src="../static/assets/plugins/jquery-1.11.3.min.js" th:src="@{assets/plugins/jquery-1.11.3.min.js}"></script>
+    <script type="text/javascript" src="../static/assets/plugins/bootstrap/js/bootstrap.min.js" th:src="@{assets/plugins/bootstrap/js/bootstrap.min.js}"></script>
+    <!-- custom js -->
+    <script type="text/javascript" src="../static/assets/js/main.js" th:src="@{/assets/js/main.js}"></script>
+</body>
+</html> 
+
